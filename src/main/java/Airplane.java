@@ -9,9 +9,9 @@ public class Airplane {
 
     public String getAirplane(){
         return "Airplane{" +
-                "prefix='" + prefix + "\n"+
-                " type='" + type.getModel() + "\n" +
-                " manufacturer='" + type.getManufacturer() +"\n" +
+                "Prefix=" + prefix + ", "+
+                "Type=" + type.getModel() + ", " +
+                "Manufacturer=" + type.getManufacturer() +
                 "}";
     }
 }
